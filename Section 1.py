@@ -26,4 +26,6 @@ num_of_ciphers = int(num)
 while num_of_ciphers > 0:
     print(*Cipher(input()))  # used to capture an unlimited number of positional arguments given to the function
     num_of_ciphers -= 1
+    
+    
 
