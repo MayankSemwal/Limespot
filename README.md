@@ -14,3 +14,8 @@ Sample Output: bnr aao ner ar
 
 Sample Input: chillout
 Sample Output: clu hlt io
+
+
+**Output**: 
+
+![Screen Shot 2021-10-12 at 3 57 57 AM](https://user-images.githubusercontent.com/47587428/136915762-c16e2414-455c-4752-ab65-7a4d597ba9cc.png)
