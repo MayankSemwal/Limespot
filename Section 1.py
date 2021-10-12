@@ -20,6 +20,7 @@ def Cipher(input):
     return list(matrix.values())
 
 
+# Number of times code will cipher the message
 num = input("Enter Number of Ciphertexts: ")
 num_of_ciphers = int(num)
 while num_of_ciphers > 0:
