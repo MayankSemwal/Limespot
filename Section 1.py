@@ -16,15 +16,15 @@ def Cipher(input):
     for row in range(0, len(text), columns):
         sub = text[row:row + columns]  # slicing the string
         for column in range(len(sub)):
-            matrix[column] += sub[column]
-    return list(matrix.values())
+            matrix[column] += sub[column]. # add each letter to our default dict
+    return list(matrix.values())  # return values seperated by space
 
 
 # Number of times code will cipher the message
 num = input("Enter Number of Ciphertexts: ")
 num_of_ciphers = int(num)
 while num_of_ciphers > 0:
-    print(*Cipher(input()))  # used to capture an unlimited number of positional arguments given to the function
+    print(*Cipher(input()))  # * is used to capture an unlimited number of positional arguments given to the function
     num_of_ciphers -= 1
     
     
